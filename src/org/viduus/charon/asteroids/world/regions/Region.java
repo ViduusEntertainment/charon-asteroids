@@ -80,6 +80,7 @@ public class Region extends BaseRegion {
 	
 	@Override 
 	protected void onObjectDeath(DeathEvent death_event) {
+		current_num_asteroids = 2;
 		active_asteroid_wave.removeAllAsteroidsLeft();
 		world_engine.disable(EngineFlags.SPAWN_WAVES);
 		game_systems.graphics_engine.disable(GlobalEngineFlags.RENDER_PLAYER_HUD);
@@ -99,8 +100,10 @@ public class Region extends BaseRegion {
 			else
 				times_outside_bounds.put(object, 1);
 			
-			if (object != null && times_outside_bounds.get(object) > max_times_outside_bounds)
+			if (object != null && times_outside_bounds.get(object) > max_times_outside_bounds) {
 				queueEntityForRemoval(object);
+				times_outside_bounds.remove(object);
+			}
 		}
 		
 		Vector2 location = object.getLocation().copy();

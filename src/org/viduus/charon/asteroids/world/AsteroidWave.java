@@ -5,6 +5,7 @@ import java.util.HashSet;
 import org.viduus.charon.asteroids.world.objects.characters.nonplayable.Asteroid;
 import org.viduus.charon.asteroids.world.regions.Region;
 import org.viduus.charon.global.event.events.TickEvent;
+import org.viduus.charon.global.util.logging.OutputHandler;
 import org.viduus.charon.global.world.AbstractWorldEngine;
 import org.viduus.charon.global.world.objects.twodimensional.Object2D;
 import org.viduus.charon.global.world.regions.BaseRegion;
