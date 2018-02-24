@@ -18,6 +18,7 @@ import org.viduus.charon.global.input.InputEngine;
 import org.viduus.charon.global.input.player.PlayerControlsState;
 import org.viduus.charon.global.util.identification.IdentifiedResource;
 import org.viduus.charon.global.util.logging.ErrorHandler;
+import org.viduus.charon.global.util.logging.OutputHandler;
 import org.viduus.charon.global.world.objects.twodimensional.character.playable.PlayableCharacter2D;
 import org.viduus.charon.global.world.objects.twodimensional.weapon.Weapon2D;
 import org.viduus.charon.global.world.objects.twodimensional.weapon.range.RangeWeapon2D;
@@ -126,7 +127,7 @@ public class PlayerCharacter extends PlayableCharacter2D {
 			amount_to_rotate += DEFAULT_ROTATION_INCREMENT;
 		if (controls_state.getLeft() != 0)
 			amount_to_rotate -= DEFAULT_ROTATION_INCREMENT;
-
+		
 		// radians
 		double rotation = rotate(amount_to_rotate);
 		
