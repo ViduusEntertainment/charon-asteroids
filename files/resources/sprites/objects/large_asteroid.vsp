@@ -1,0 +1,90 @@
+{
+  "sprite_map": "resources/img/sprites/large_asteroid.png",
+  "size": {
+    "width": 32,
+    "height": 32
+  },
+  "hands": {
+    "left": [],
+    "right": []
+  },
+  "layouts": {
+    "static": [
+      {
+        "name": "vid:animation:objects/large_asteroid.large_asteroid-idle",
+        "sustain": true,
+        "variants": [
+          {
+            "probability": 1,
+            "frames": {
+              "vertices": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 32,
+                  "y": 0
+                },
+                {
+                  "x": 32,
+                  "y": 32
+                },
+                {
+                  "x": 0,
+                  "y": 32
+                }
+              ],
+              "center": {
+                "x": 16,
+                "y": 16
+              },
+              "masks": {
+                "collision": [
+				  {
+					"vertices": [
+					  {
+						"x": 0,
+						"y": 0,
+						"metadata": {
+						  
+						}
+					  },
+					  {
+						"x": 32,
+						"y": 0,
+						"metadata": {
+						  
+						}
+					  },
+					  {
+						"x": 32,
+						"y": 32,
+						"metadata": {
+						  
+						}
+					  },
+					  {
+						"x": 0,
+						"y": 32,
+						"metadata": {
+						  
+						}
+					  }
+					],
+					"metadata": {
+					  
+					}
+				  }
+				],
+                "image": []
+              }
+            }
+          }
+        ]
+      }
+     ],
+    "tiled": [],
+    "free": []
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "sprite_map": "resources/img/sprites/bullet.png",
+  "size": {
+    "width": 12,
+    "height": 12
+  },
+  "hands": {
+    "left": [],
+    "right": []
+  },
+  "layouts": {
+    "static": [
+      {
+        "name": "vid:animation:objects/bullets.player_normal-idle",
+        "sustain": true,
+        "variants": [
+          {
+            "probability": 1,
+            "frames": {
+              "vertices": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 12,
+                  "y": 0
+                },
+                {
+                  "x": 12,
+                  "y": 12
+                },
+                {
+                  "x": 0,
+                  "y": 12
+                }
+              ],
+              "center": {
+                "x": 6,
+                "y": 6
+              },
+              "masks": {
+                "collision": [
+				  {
+					"vertices": [
+					  {
+						"x": 0,
+						"y": 0,
+						"metadata": {
+						  
+						}
+					  },
+					  {
+						"x": 12,
+						"y": 0,
+						"metadata": {
+						  
+						}
+					  },
+					  {
+						"x": 12,
+						"y": 12,
+						"metadata": {
+						  
+						}
+					  },
+					  {
+						"x": 0,
+						"y": 12,
+						"metadata": {
+						  
+						}
+					  }
+					],
+					"metadata": {
+					  
+					}
+				  }
+				],
+                "image": []
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "tiled": [],
+    "free": []
+  }
+}

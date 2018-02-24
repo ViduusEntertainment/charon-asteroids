@@ -1,0 +1,90 @@
+{
+  "sprite_map": "resources/img/sprites/medium_asteroid.png",
+  "size": {
+    "width": 24,
+    "height": 24
+  },
+  "hands": {
+    "left": [],
+    "right": []
+  },
+  "layouts": {
+    "static": [
+      {
+        "name": "vid:animation:objects/medium_asteroid.medium_asteroid-idle",
+        "sustain": true,
+        "variants": [
+          {
+            "probability": 1,
+            "frames": {
+              "vertices": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 24,
+                  "y": 0
+                },
+                {
+                  "x": 24,
+                  "y": 24
+                },
+                {
+                  "x": 0,
+                  "y": 24
+                }
+              ],
+              "center": {
+                "x": 12,
+                "y": 12
+              },
+              "masks": {
+                "collision": [
+				  {
+					"vertices": [
+					  {
+						"x": 0,
+						"y": 0,
+						"metadata": {
+						  
+						}
+					  },
+					  {
+						"x": 24,
+						"y": 0,
+						"metadata": {
+						  
+						}
+					  },
+					  {
+						"x": 24,
+						"y": 24,
+						"metadata": {
+						  
+						}
+					  },
+					  {
+						"x": 0,
+						"y": 24,
+						"metadata": {
+						  
+						}
+					  }
+					],
+					"metadata": {
+					  
+					}
+				  }
+				],
+                "image": []
+              }
+            }
+          }
+        ]
+      }
+     ],
+    "tiled": [],
+    "free": []
+  }
+}

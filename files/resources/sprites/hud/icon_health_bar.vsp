@@ -1,0 +1,90 @@
+{
+  "sprite_map": "resources/img/sprites/icon_health_bar.png",
+  "size": {
+    "width": 16,
+    "height": 16
+  },
+  "hands": {
+    "left": [],
+    "right": []
+  },
+  "layouts": {
+    "static": [
+      {
+        "name": "vid:animation:hud/icon_health_bar.icon_health_bar-idle",
+        "sustain": true,
+        "variants": [
+          {
+            "probability": 1,
+            "frames": {
+              "vertices": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 16,
+                  "y": 0
+                },
+                {
+                  "x": 16,
+                  "y": 16
+                },
+                {
+                  "x": 0,
+                  "y": 16
+                }
+              ],
+              "center": {
+                "x": 8,
+                "y": 8
+              },
+              "masks": {
+                "collision": [
+				  {
+					"vertices": [
+					  {
+						"x": 0,
+						"y": 0,
+						"metadata": {
+						  
+						}
+					  },
+					  {
+						"x": 16,
+						"y": 0,
+						"metadata": {
+						  
+						}
+					  },
+					  {
+						"x": 16,
+						"y": 16,
+						"metadata": {
+						  
+						}
+					  },
+					  {
+						"x": 0,
+						"y": 16,
+						"metadata": {
+						  
+						}
+					  }
+					],
+					"metadata": {
+					  
+					}
+				  }
+				],
+                "image": []
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "tiled": [],
+    "free": []
+  }
+}
